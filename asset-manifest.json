@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/protfolio/static/css/main.a6429cd3.chunk.css",
+    "main.js": "/protfolio/static/js/main.75e2e3cf.chunk.js",
+    "main.js.map": "/protfolio/static/js/main.75e2e3cf.chunk.js.map",
+    "runtime-main.js": "/protfolio/static/js/runtime-main.bd32bd05.js",
+    "runtime-main.js.map": "/protfolio/static/js/runtime-main.bd32bd05.js.map",
+    "static/js/2.fa6e48f8.chunk.js": "/protfolio/static/js/2.fa6e48f8.chunk.js",
+    "static/js/2.fa6e48f8.chunk.js.map": "/protfolio/static/js/2.fa6e48f8.chunk.js.map",
+    "index.html": "/protfolio/index.html",
+    "static/css/main.a6429cd3.chunk.css.map": "/protfolio/static/css/main.a6429cd3.chunk.css.map",
+    "static/js/2.fa6e48f8.chunk.js.LICENSE.txt": "/protfolio/static/js/2.fa6e48f8.chunk.js.LICENSE.txt",
+    "static/media/me.816728d2.jpg": "/protfolio/static/media/me.816728d2.jpg",
+    "static/media/styles.scss": "/protfolio/static/media/person.737cbf35.svg",
+    "static/media/react.9235e8f8.svg": "/protfolio/static/media/react.9235e8f8.svg",
+    "static/media/sunday.66c82eb5.png": "/protfolio/static/media/sunday.66c82eb5.png",
+    "static/media/vue.6d7684ef.svg": "/protfolio/static/media/vue.6d7684ef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bd32bd05.js",
+    "static/js/2.fa6e48f8.chunk.js",
+    "static/css/main.a6429cd3.chunk.css",
+    "static/js/main.75e2e3cf.chunk.js"
+  ]
+}
