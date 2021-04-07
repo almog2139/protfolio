@@ -1,0 +1,103 @@
+// .main-header {
+//     display: grid;
+//     grid-template-columns: 35% 50%;
+//     justify-content: center;
+//     align-content: center;
+//     grid-gap: 0 2rem;
+//     position: relative;
+
+//     height: 100vh;
+
+//     .logo {
+//         grid-row: span 3;
+//     }
+
+//     > *:not(.logo) {
+//         grid-column: 2;
+//     }
+
+//     &::after {
+//         content: "⌄";
+//         position: absolute;
+//         bottom: 1rem;
+//         left: 50%;
+//         font-size: 4.25rem;
+//         transform: translateX(-50%);
+//         color: $clr1;
+//     }
+// }
+.nav-bar {
+    @media (max-width: $mobile-breakpoint) {
+        top: 0;
+        z-index: 100;
+        width: 100%;
+        overflow: hidden;
+        height: 10vh;
+        display: grid;
+        // & ul {
+        //     display: none;
+        // }
+    }
+    background-color: white;
+    left: 0;
+    position: fixed;
+    box-shadow: 0 8px 19px rgba(0, 0, 0, 0.31);
+    height: 100vh;
+    z-index: 5;
+}
+.app-header {
+    .name {
+        display: none;
+    }
+    @media (max-width: $mobile-breakpoint) {
+        display: flex;
+        align-items: center;
+        .about {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            padding-top: 5em;
+            display: flex;
+            flex-wrap: wrap;
+            background-color: unset;
+            text-align: center;
+            .name {
+                display: block;
+            }
+            .name2 {
+                display: none;
+            }
+        }
+    }
+}
+.about {
+    background-color: #fafafa;
+    border-bottom: 1px solid #ddd;
+    box-sizing: content-box;
+    min-height: 90px;
+    padding: 30px 30px 40px;
+    text-align: center;
+    width: 150px;
+    h1 {
+        color: $green;
+        font-family: serif;
+    }
+    p {
+        color: gray;
+    }
+}
+.experience {
+    color: #00bcd4;
+}
+.proj {
+    color: #3f51b5;
+}
+.skills {
+    color: #9c27b0;
+}
+.education-icon {
+    color: #ff9800;
+}
+.contact {
+    color: #795548;
+}

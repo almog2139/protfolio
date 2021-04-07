@@ -1,0 +1,50 @@
+.protfolio{
+   position: relative;
+    padding-left: 210px;
+    @media (max-width: $mobile-breakpoint) {
+        padding-left: 0px;
+    }
+}
+.devop-img{
+    background-image: url('../../images/person.svg');
+    height: 105vh;
+    position: relative;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    left: -65px;
+    
+    /* position: absolute; */
+    top: 0;
+    width: 100%;
+    margin: auto;
+    h1{
+        @media (max-width: $mobile-breakpoint) {
+
+            left: 14%;
+            top: -200px;
+        }
+        
+        
+
+        font-weight: 300;
+        line-height: 150%;
+        padding: 21px 30px;
+        padding-bottom: 20px;
+        text-shadow: 1px 1px 5px rgba(0, 0, 0 , 0.50);
+        color: black;
+        width: 350px;
+        position: relative;
+        top: 69px;
+        left: -2%;
+        
+       .span-bgc{
+        padding: 0 10px;
+        background-color: $green ;
+       }
+       .span-border{
+        border-bottom: 5px solid $green 
+       }
+    }
+}

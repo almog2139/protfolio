@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+
+::selection {
+    background-color: $clr1;
+    color: $clr6;
+}
+
+html {
+    font-family: "montserrat", sans-serif;
+    line-height: 1.6;
+    color: $clr2;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 ;
+    line-height: inherit;
+    margin: inherit;
+    font-weight: inherit;
+    font-size: x-large;
+
+  
+}
+
+p {
+    margin: 0 0 0em;
+}
+button {
+    cursor: pointer;
+    padding: 0;
+
+    &:focus {
+        outline: none;
+    }
+}
+input,
+textarea {
+    width: 200px;
+    outline: none;
+}
+
+input,
+select {
+    padding: 5px;
+    padding-left: none;
+    border: unset;
+    background: unset;
+    border-bottom: 1px solid black;
+}
+
+textarea {
+    height: 75px;
+}
+
+//scrool
+
+::-webkit-scrollbar {
+    width: 7px;
+    @media (max-width: 500px) {
+        width: 4px;
+    }
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: transparent;
+    // background: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    // background: rgb(17, 17, 17);
+    background:$green;
+    border-bottom-left-radius: 2em;
+    border-top-left-radius: 2em;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #d1d2d3;
+    width: 7px;
+}
+li{
+ list-style-type: none;
+ display: flex;
+ align-items: center;
+ padding: 1em;
+ width: 210px;
+ 
+ &:hover{
+     background-color: #fafafa;
+     border-left: 5px solid $green;
+ }
+ 
+}
+a{
+    text-decoration: none;
+    display: flex;
+    color: $green;
+    margin-left: 5px;
+    svg{
+        color: $green;
+        margin-right: 5px;
+    }
+}
+ul{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    padding-inline-start: 0px;
+}
+h2 {
+    background-color: $green;
+    color: white;
+    font-weight: 200;
+     padding: 30px 40px;
+     text-transform: uppercase;
+
+}
+

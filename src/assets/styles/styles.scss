@@ -1,0 +1,21 @@
+// Setup
+@import "setup/variables.scss";
+@import "setup/functions.scss";
+@import "setup/mixins.scss";
+// @import "setup/typography.scss";
+
+// Basics
+@import "basics/helpers.scss";
+@import "basics/layout.scss";
+@import "basics/base.scss";
+@import "basics/buttons.scss";
+@import "basics/header.scss";
+
+// Components
+@import "components/main-header.scss";
+@import "components/protfolio.scss";
+@import "components/aboutme.scss";
+@import "components/projPreview.scss";
+@import "components/skills.scss";
+@import "components/education.scss";
+@import "components/contact.scss";

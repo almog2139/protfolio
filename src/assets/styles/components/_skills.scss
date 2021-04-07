@@ -1,0 +1,48 @@
+img {
+    width: 50px;
+    margin: auto;
+}
+.main-skills {
+//     background: linear-gradient(
+// 0deg
+// ,#9fffc7 21.49%,#76e1bf 30.01%,#0d96aa 49.1%,#008ca7 51.48%,#02627b 63.63%,#052e45 80.31%,#070d24 92.81%,#080117 99.6%);
+    background: linear-gradient(0deg, #f5f5f5, $green);
+    h2 {
+        background-color: unset !important;
+        margin: 8px 0 20px !important;
+    }
+}
+.skills-page {
+    border-radius: 12px;
+    box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #e6ecf8;
+    background-color: white;
+    margin-bottom: 100px;
+    @media (max-width: $mobile-breakpoint) {
+        flex-direction: column;
+    }
+}
+.skill {
+    width: 33.3%;
+    text-align: center;
+    padding: 70px 45px;
+    > * {
+        margin-bottom: 1.5em;
+    }
+    &:not(:last-child) {
+        border-right: 1px solid #e6ecf8;
+    }
+    svg {
+        color: $green;
+        font-size: 50px;
+    }
+    @media (max-width: $mobile-breakpoint) {
+        width: 100%;
+        &:nth-child(2) {
+            border-top: 1px solid #e6ecf8;
+            border-bottom: 1px solid #e6ecf8;
+        }
+    }
+}
+.color-svg {
+    filter: invert(0.33) sepia(1) saturate(11.9) hue-rotate(115.2deg) brightness(0.84);
+}
